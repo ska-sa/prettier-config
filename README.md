@@ -13,17 +13,26 @@ Suggested `prettier` configuration (code formatting) for Typescript/JS projects
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Install this package
+Explicitly configure NPM registries by creating a `.npmrc` file:
+
+```
+registry=https://registry.npmjs.org/
+@ska-sa:registry=https://npm.pkg.github.com
+```
 
 ```sh
 npm login --registry https://npm.pkg.github.com
-npm install -D github:ska-sa/prettier-config
+npm install -D prettier github:ska-sa/prettier-config
 ```
 
-And then add this to `package.json` (prettier is a top level key):
+Create a `prettier.config.js` file with the following contents (assumes type=module is specified in the `package.json` file):
 
-```json
-{ "prettier": "@ska-sa/prettier-config" }
+```js
+import config from '@ska-sa/prettier-config'
+export default config
 ```
+
+Make sure that `.vscode/settings.json` includes `{"prettier.prettierPath": "./node_modules/prettier", ...}`
 
 # Local dev
 
