@@ -1,1 +1,5 @@
-# prettier-config
+# To use
+
+```sh
+./publish.sh
+```

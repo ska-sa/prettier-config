@@ -1,9 +1,17 @@
 {
-  "name": "@sarao/prettier-config",
+  "name": "@ska-sa/prettier-config",
   "version": "1.0.0",
   "license": "MIT",
   "main": "index.js",
-  "files": ["index.js", "README.md"],
-  "repository": "github:your-org/prettier-config",
-  "publishConfig": { "access": "public" }
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ska-sa/prettier-config.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
