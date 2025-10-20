@@ -1,5 +1,5 @@
 # @ska-sa/prettier-config
-Suggested configuration for Typescript/JS projects
+Suggested `prettier` configuration (code formatting) for Typescript/JS projects
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
