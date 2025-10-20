@@ -1,8 +1,10 @@
 # @ska-sa/prettier-config
+
 Suggested `prettier` configuration (code formatting) for Typescript/JS projects
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 **Table of Contents**
 
 - [Install this package](#install-this-package)
@@ -20,10 +22,11 @@ npm install -D github:ska-sa/prettier-config
 And then add this to `package.json` (prettier is a top level key):
 
 ```json
-{"prettier": "@ska-sa/prettier-config" }
+{ "prettier": "@ska-sa/prettier-config" }
 ```
 
 # Local dev
+
 To publish changes to this package:
 
 1. Bump the version in package.json

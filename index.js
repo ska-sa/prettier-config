@@ -1,5 +1,5 @@
 // index.js
-module.exports = {
+const config = {
   printWidth: 100,
   semi: false,
   singleQuote: true,
@@ -12,3 +12,5 @@ module.exports = {
   htmlWhitespaceSensitivity: 'css',
   endOfLine: 'lf',
 }
+
+export default config

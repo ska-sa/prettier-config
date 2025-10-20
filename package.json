@@ -1,8 +1,10 @@
 {
   "name": "@ska-sa/prettier-config",
-  "version": "1.0.0",
+  "description": "Shared Prettier config",
+  "version": "1.0.1",
   "license": "MIT",
-  "main": "index.js",
+  "exports": "./index.js",
+  "type": "module",
   "files": [
     "index.js",
     "README.md"
@@ -13,5 +15,8 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
   }
 }
