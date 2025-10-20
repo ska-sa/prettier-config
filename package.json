@@ -1,0 +1,9 @@
+{
+  "name": "@sarao/prettier-config",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "files": ["index.js", "README.md"],
+  "repository": "github:your-org/prettier-config",
+  "publishConfig": { "access": "public" }
+}
