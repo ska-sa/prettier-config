@@ -1,4 +1,4 @@
-# @ska-sa/prettier-config
+# @ska-sa/styleguide
 
 Suggested `prettier` configuration (code formatting) for Typescript/JS projects
 
@@ -22,13 +22,13 @@ registry=https://registry.npmjs.org/
 
 ```sh
 npm login --registry https://npm.pkg.github.com
-npm install -D prettier github:ska-sa/prettier-config
+npm install -D prettier github:ska-sa/styleguide
 ```
 
 Create a `prettier.config.js` file with the following contents (assumes type=module is specified in the `package.json` file):
 
 ```js
-import config from '@ska-sa/prettier-config'
+import config from '@ska-sa/styleguide'
 export default config
 ```
 
@@ -44,9 +44,5 @@ To publish changes to this package:
 4. and publish
 
 ```sh
-# .env
-NODE_AUTH_TOKEN=ghp_...
-
-# Run the publish script
-./publish.sh
+npm publish --access public
 ```

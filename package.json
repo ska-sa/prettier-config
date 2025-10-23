@@ -1,6 +1,6 @@
 {
-  "name": "@ska-sa/prettier-config",
-  "description": "Shared Prettier config",
+  "name": "@ska-sa/styleguide",
+  "description": "Style guides for including in Pixel projects",
   "version": "1.0.1",
   "license": "MIT",
   "exports": "./index.js",
@@ -11,10 +11,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ska-sa/prettier-config.git"
+    "url": "git+https://github.com/ska-sa/styleguide.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org"
   },
   "peerDependencies": {
     "prettier": ">=3.0.0"
